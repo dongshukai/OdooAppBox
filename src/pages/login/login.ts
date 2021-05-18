@@ -14,8 +14,8 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: 'login.html',
 })
 export class LoginPage{
-  public host = 'http://demo.appbox.atknit.com';
-  public db = 'odoo12-demo';
+  public host = 'http://home.dongshukai.cn:8202';
+  public db = 'rh-demo-gzw-20210510-newtestdb';
   public username = '';
   public password = '';
   public usernameErrorMessage = '';
